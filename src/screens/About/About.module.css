@@ -63,7 +63,7 @@
   border-radius: 0.4rem;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 1080px) {
   .about_screens {
     margin-top: 6rem;
     width: 100%;

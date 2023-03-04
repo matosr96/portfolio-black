@@ -28,7 +28,7 @@
   height: 12vh;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 1080px) {
   .skills_screens {
     width: 100vw;
     margin-bottom: 4rem;

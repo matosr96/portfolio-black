@@ -55,7 +55,7 @@
   gap: 1rem;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 1080px) {
   .screens_project {
     width: 100vw;
   }

@@ -140,7 +140,7 @@
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 1080px) {
   .container_navigation {
     display: flex;
     flex-direction: column;
@@ -222,6 +222,3 @@
   }
 }
 
-@media (max-width: 736px) and (orientation: landscape) {
-  /* estilos para pantallas de celular en posición horizontal */
-}
