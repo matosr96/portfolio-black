@@ -146,6 +146,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100vw;
   }
 
   .nav {
@@ -191,7 +192,7 @@
   .links_container {
     position: fixed;
     bottom: 0;
-    width: 96%;
+    width: 100vw;
     height: 6rem;
     background-color: var(--grey-two);
     display: flex;

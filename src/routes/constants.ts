@@ -1,5 +1,6 @@
 export const ConstantsRoutes = {
     ABOUT: "/about",
     PROJECTS: "/projects",
-    SKILLS: "/skills"
+    SKILLS: "/skills",
+    HOME: "/"
   };

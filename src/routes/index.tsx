@@ -10,6 +10,7 @@ const PageRoutes = () => {
     <Routes>
       <Route path={ConstantsRoutes.ABOUT} element={<About />} />
       <Route path={ConstantsRoutes.PROJECTS} element={<Projects />} />
+      <Route path={ConstantsRoutes.HOME} element={<Projects />} />
       <Route path={ConstantsRoutes.SKILLS} element={<Skills />} />
     </Routes>
   );
