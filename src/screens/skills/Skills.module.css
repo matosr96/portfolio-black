@@ -1,0 +1,36 @@
+.skills_screens {
+  width: 40vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dos columnas de igual ancho */
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 6rem;
+}
+
+.card_skill {
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid var(--grey-one);
+  border-radius: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card_skill h3 {
+  color: var(--grey-one);
+}
+
+.card_skill img {
+  height: 12vh;
+}
+
+@media (max-width: 414px) {
+  .skills_screens {
+    width: 100vw;
+    margin-bottom: 4rem;
+  }
+}

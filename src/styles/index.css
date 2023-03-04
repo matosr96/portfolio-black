@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-black: #030303;
+  --background-card: #0F0E0E;
+  --white: #f3f2f3;
+  --grey-one: #9c9a9e;
+  --grey-two: #7d7981;
+
+  /* ====== Transition ====== */
+  --tran-03: all 0.2s ease;
+  --tran-03: all 0.3s ease;
+  --tran-04: all 0.3s ease;
+  --tran-05: all 0.3s ease;
+  --tran-06: all 0.8s ease;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  text-rendering: optimizeSpeed;
+  min-height: 100vh;
+  transition: var(--tran-05);
+  background-color: var(--background-black);
+}
+
+button {
+  cursor: pointer;
+}
+
+.wrapper {
+  border: 3px solid blue;
+}
